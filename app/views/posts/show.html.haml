@@ -4,8 +4,10 @@
       .name
         Henry Spencer
     .image.center-block
-      =image_tag @post.image.url(:medium)
+      = image_tag @post.image.url(:medium)
     %p.caption
-      =@post.caption
+      = @post.caption
     .text-center
-      =link_to "Cancel", posts_path
+      = link_to "Cancel", posts_path
+      |
+      = link_to "Edit Post", edit_post_path(@post)
