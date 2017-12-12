@@ -36,6 +36,7 @@ gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 gem 'simple_form'
 gem 'haml'
 gem "haml-rails", "~> 1.0"
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -44,6 +45,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'pry'
+  gem 'bootstrap-sass', '~> 3.3.7'
 end
 
 group :development do
