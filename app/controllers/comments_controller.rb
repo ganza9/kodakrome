@@ -9,6 +9,7 @@ class CommentsController < ApplicationController
   end
 
   def new
+    @comment = @post.current_user.comments.build
   end
 
   def create
@@ -16,8 +17,10 @@ class CommentsController < ApplicationController
     @comment.user_id = current_user.id
 
     if @comment.save
-      flash[:success] = "Commented!"
-      redirect_to :back
+      respond_to do |format|
+        format.html { redirect_to root_path }
+        format.js
+      end
     else
       flash[:alert] = "Check your comment!"
       render root_path
