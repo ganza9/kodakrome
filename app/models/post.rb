@@ -1,6 +1,7 @@
 class Post < ApplicationRecord
   validates :user_id, presence: true
   validates :image, presence: true
+  validates :caption, length: { in: 3..300 }
   belongs_to :user
   has_many :comments, dependent: :destroy
   has_attached_file :image, styles: { :medium => "640x" }
