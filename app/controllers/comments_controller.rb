@@ -1,16 +1,6 @@
 class CommentsController < ApplicationController
-  before_action :set_post, only: [:show, :edit, :update, :destroy]
-
-  def index
-  end
-
-  def show
-  end
-
-  def new
-    @comment = @post.current_user.comments.build
-  end
-
+  before_action :set_post
+  
   def create
     @comment = @post.comments.build(comment_params)
     @comment.user_id = current_user.id
