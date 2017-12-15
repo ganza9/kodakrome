@@ -163,3 +163,37 @@
      margin-top: 20px;
      margin-bottom: 40px;
    }
+
+  //  FORM STYLING
+
+html {
+  height: 100%;
+}
+
+.registration-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('grand_central.jpg');
+  background-size: cover !important;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+.log-in {
+  margin-left: -85%;
+  margin-right: auto;
+  text-align: center;
+  border: none;
+}
+
+.panel {
+  border-radius: 8px;
+  width: 500px;
+}
+
+.panel-heading {
+  h1 {
+    text-align: center;
+  }
+}
