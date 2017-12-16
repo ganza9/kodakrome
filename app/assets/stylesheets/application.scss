@@ -30,6 +30,10 @@
 
  // NAV BAR CUSTOMIZATIONS
 
+ .navbar {
+   margin-bottom: 0px;
+ }
+
  .navbar-brand {
    a {
      color: #125688;
@@ -196,4 +200,8 @@ html {
   h1 {
     text-align: center;
   }
+}
+
+.alert {
+  margin-bottom: 0px;
 }
