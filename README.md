@@ -1,24 +1,46 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# _Kodakrome_
+### _(instagram clone)_
 
-* Ruby version
+##### _Epicodus Capstone Project_
 
-* System dependencies
+## About
 
-* Configuration
+_A cumulative demonstration of the skills I’ve gained throughout my time at Epicodus._
 
-* Database creation
+## Running the App
 
-* Database initialization
+* Clone this repository
+* Install required dependencies
 
-* How to run the test suite
+```
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+* To run local server
 
-* Deployment instructions
+```
+$ rails s
+```
 
-* ...
+## Support and Contact Details
+
+Please contact [Gennaro Anzalone](g.anzalone12@gmail.com) with questions or comments.
+
+
+## Technologies Used
+
+* [haml](http://haml.info/)
+* [ruby](https://www.ruby-lang.org/en/)
+* [rails](http://rubyonrails.org/)
+* [jQuery](https://jquery.com/)
+* [bootstrap](https://getbootstrap.com/docs/3.3/)
+
+### License
+
+Copyright (c) 2017 **Gennaro Anzalone**
+
+*This software is licensed under the MIT license.*
