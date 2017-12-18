@@ -32,17 +32,6 @@
    color: #FF625A;
  }
 
- #image-preview {
-   display: block;
-   max-width: 100%;
-   height: auto;
- }
-
- #post_image {
-   padding: 1em;
-   margin: 0px auto;
- }
-
 
  // NAV BAR CUSTOMIZATIONS
 
@@ -165,6 +154,21 @@
      border-top: 1px solid #EEEFEF;
      flex-direction: row;
      justify-content: center;
+   }
+
+   #image-preview {
+     display: block;
+     max-width: 100%;
+     height: auto;
+   }
+
+   #post_image {
+     padding: 1em;
+     margin: 0px auto;
+   }
+
+   #post_caption {
+     width: 610px;
    }
 
 
