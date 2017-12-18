@@ -1,6 +1,7 @@
 %h1 kodakrome
 
--@posts.each do |post|
-  = render 'post', post: post
+#posts
+  = render 'posts'
 
-= paginate @posts
+#paginator.text-center
+  = link_to_next_page @posts, 'LOAD MORE', remote: true, id: 'load_more'
