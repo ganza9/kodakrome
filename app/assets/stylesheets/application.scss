@@ -33,9 +33,9 @@
  }
 
  #image-preview {
-   margin: 0px auto;
-   height: 640px;
-   width: 640px;
+   display: block;
+   max-width: 100%;
+   height: auto;
  }
 
  #post_image {
