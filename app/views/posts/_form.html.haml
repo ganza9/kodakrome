@@ -2,7 +2,7 @@
   .posts
     .post-body
       .image-wrap
-        = image_tag 'placeholder.jpg', id: 'image-preview', class: 'img-response'
+        = form_image_select(@post)
         = simple_form_for @post, html: { multipart: true } do |f|
           .row
             .col-md-12.text-center
