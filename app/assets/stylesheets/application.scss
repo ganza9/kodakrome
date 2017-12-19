@@ -116,6 +116,16 @@
     .user_name, .caption-content {
       display: inline;
     }
+
+    .comments {
+      .paginator {
+        margin: 0.5em;
+        .more-comments {
+          color: #A5A7AA;
+        }
+      }
+    }
+
     #comment {
       margin-top: 7px;
       .user_name {
