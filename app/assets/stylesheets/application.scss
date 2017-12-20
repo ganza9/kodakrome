@@ -32,11 +32,6 @@
    color: #FF625A;
  }
 
- #user_avatar {
-   margin: 20px auto;
- }
-
-
  // NAV BAR CUSTOMIZATIONS
 
  .navbar {
@@ -303,4 +298,12 @@ html {
 
 .profile-bio {
   margin-top: 20px;
+}
+
+.profile-image {
+  border-radius: 360px;
+}
+
+#user_avatar {
+  margin: 20px auto;
 }
