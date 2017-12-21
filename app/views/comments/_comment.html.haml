@@ -3,3 +3,6 @@
     = link_to comment.user.user_name,
       profile_path(comment.user.user_name)
     = comment.content
+  - if comment.user == current_user
+    = link_to post_comments_path(post, comment), method: :delete, data: {post_id: post.id, value: post.comments.count, confirm: "Are you sure?" }, remote: true, id: "delete-#{comment.id}", class: "delete-comment" do
+      %span(class="glyphicon glyphicon-remove delete-comment-icon")
