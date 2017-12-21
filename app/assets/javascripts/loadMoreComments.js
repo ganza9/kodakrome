@@ -21,7 +21,7 @@ function DestroyComments(){
   });
 }
 
-$( document ).ready(function() {
+$(document).ready(function() {
   ClickableCommentsLink();
   DestroyComments();
   $('.comment_content').click (function(){
