@@ -12,27 +12,17 @@
       .caption
         .caption-content
           .user_name
-            = link_to post.user.user_name, profile_path(post.user.user_name)
+            = post.user.user_name
           = post.caption
-        - if post.comments
-          - post.comments.each do |comment|
-            .comment
-              .user_name
-                = comment.user.user_name
-              .comment-content
-                = comment.content
-              - if comment.user == current_user
-                = link_to post_comment_path(post, comment), method: :delete, data: { confirm: "Are you sure?" } do
-                  %span(class="glyphicon glyphicon-remove delete-comment-icon")
-      .comment-like-form.row
-        .like-button.col-sm-1
-          %span(class="glyphicon glyphicon-heart-empty")
-        .comment-form.col-sm-11
-          = form_for [post, post.comments.new] do |f|
-            =f.text_field :content, placeholder: "Add a comment..."
-      .comments{ id: "comments_#{post.id}" }
-        - if post.comments.any?
-          = render post.comments.first(4), post: post
-          - unless post.comments.count <= 4
-            .paginator{id: "#comments-paginator-#{post.id}"}
-              = link_to "view all #{post.comments.count} comments", post_comments_path(post), remote: true, class: 'more-comments', id: "more_comments_#{post.id}", data: {post_id: "#{post.id}", type: "html, value:" "#{post.comments.count}"}
+        .comments{ id: "comments_#{post.id}" }
+          - if post.comments.any?
+            = render post.comments.first(4), post: post
+            - unless post.comments.count <= 4
+              .paginator{id: "#comments-paginator-#{post.id}"}
+                = link_to "view all #{post.comments.count} comments", post_comments_path(post), remote: true, class: 'more-comments', id: "more_comments_#{post.id}", data: {post_id: "#{post.id}", type: "html, value:" "#{post.comments.count}"}
+    .comment-like-form.row
+      .like-button.col-sm-1
+        %span(class="glyphicon glyphicon-heart-empty")
+      .comment-form.col-sm-11
+        = form_for [post, post.comments.new] do |f|
+          =f.text_field :content, placeholder: "Add a comment..."

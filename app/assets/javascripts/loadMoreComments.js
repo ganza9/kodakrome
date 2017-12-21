@@ -31,5 +31,5 @@ $( document ).ready(function() {
     if(Append.comment_count < 4){ Append.comment = true; Append.link = false; }
     else if(Append.comment_count == 4){ Append.comment = false; Append.link = true; }
     else if(Append.comment_count > 4){ Append.comment = false; Append.link = false;  }
-  })
+  });
 });
