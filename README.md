@@ -41,7 +41,6 @@ Please contact [Gennaro Anzalone](g.anzalone12@gmail.com) with questions or comm
 
 ## Technologies To Be Added
 
-* [react](https://reactjs.org/)
 * [instagram API](https://www.instagram.com/developer/)
 * [omniAuth](https://github.com/omniauth/omniauth)
 
