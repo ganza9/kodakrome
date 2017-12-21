@@ -174,11 +174,6 @@
      display: block;
      max-width: 100%;
      height: auto;
-     border-radius: 360px;
-   }
-
-   #img-responsive {
-     border-radius: 360px;
    }
 
    #post_image {
@@ -295,7 +290,6 @@ html {
   margin: 20px auto;
   height: 152px;
   width: 152px;
-  border-radius: 360px;
 }
 
 .user-name-and-follow {
@@ -316,13 +310,8 @@ html {
   margin-top: 20px;
 }
 
-.profile-image {
-  border-radius: 360px;
-}
-
 #user_avatar {
   margin: 20px auto;
-  border-radius: 360px;
 }
 .img-circle img{
   border-radius: 360px !important;
