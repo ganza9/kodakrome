@@ -116,6 +116,10 @@
       display: inline;
     }
 
+    .caption-content {
+      padding-bottom: 1em;
+    }
+
     .comments {
       .paginator {
         margin: 0.5em;
@@ -127,6 +131,7 @@
 
     #comment {
       margin-top: 7px;
+      display: inline;
       .user_name {
         font-weight: 500;
         margin-right: 0.3em;
@@ -151,6 +156,7 @@
      border: medium none;
      width: 100%;
      color: #4B4F54;
+     display: inline-block;
    }
 
    .comment-like-form {
@@ -204,6 +210,11 @@
      a :hover{
        color: #2D6DA8;
      }
+   }
+
+   .user-name {
+     padding-top: .1em;
+     padding-bottom: .3em;
    }
 
     // Wrapper and styling for new and edit views
