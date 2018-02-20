@@ -40,6 +40,7 @@ gem 'jquery-rails'
 gem 'devise', '~> 4.3.0'
 gem 'kaminari'
 gem 'jquery-turbolinks'
+gem 'acts_as_votable', '~> 0.11.1'
 
 group :production do
   gem 'pg', '~> 0.18.4'
