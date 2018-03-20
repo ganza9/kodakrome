@@ -7,7 +7,7 @@
 
 ## About
 
-_A cumulative demonstration of the skills I’ve gained throughout my time at Epicodus._
+_A cumulative demonstration of the skills I’ve gained throughout my time at Epicodus. This project is a built from scratch clone of the popular social media platform, Instagram. Users can create accounts, create and edit posts, comment on other posts and like posts._
 
 ## Running the App
 
@@ -39,10 +39,6 @@ Please contact [Gennaro Anzalone](g.anzalone12@gmail.com) with questions or comm
 * [jQuery](https://jquery.com/)
 * [bootstrap](https://getbootstrap.com/docs/3.3/)
 
-## Technologies To Be Added
-
-* [instagram API](https://www.instagram.com/developer/)
-* [omniAuth](https://github.com/omniauth/omniauth)
 
 ### License
 
