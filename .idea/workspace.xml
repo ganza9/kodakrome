@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01da5f86-a6e1-4886-8dce-09cfe097f145" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kodakrome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kodakrome.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/loadMoreComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/loadMoreComments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/comments/create.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comments/create.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.haml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -62,14 +57,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333" />
+            <state relative-caret-position="-496">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1029" />
@@ -364,12 +361,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524760008592</updated>
       <workItem from="1524760013962" duration="280000" />
-      <workItem from="1535549010527" duration="4385000" />
+      <workItem from="1535549010527" duration="4873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4665000" />
+    <option name="totallyTimeSpent" value="5153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -490,14 +487,16 @@
         <state relative-caret-position="-834" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
       </provider>
     </entry>
   </component>
