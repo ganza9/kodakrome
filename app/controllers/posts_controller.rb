@@ -29,7 +29,7 @@ class PostsController < ApplicationController
 		if current_user == @post.user
 			edit_post_path
 		else
-			flash[:alert] = "That post doesnt belong to you!"
+			flash[:alert] = "That post doesn't belong to you!"
 			redirect_to root_path
 		end
 	end
